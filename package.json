@@ -1,19 +1,20 @@
 {
-	"name": "raspiserver",
-	"version": "1.0.0",
-	"description": "test server",
-	"main": "app.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node src/app.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "raspiserver"
-	},
-	"author": "njsrikar",
-	"license": "ISC",
-	"dependencies": {
-		"express": "^4.13.4"
-	}
+  "name": "raspiserver",
+  "version": "1.0.0",
+  "description": "test server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "raspiserver"
+  },
+  "author": "njsrikar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "wiring-pi": "^2.1.1"
+  }
 }
